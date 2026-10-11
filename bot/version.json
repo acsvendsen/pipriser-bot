@@ -1,10 +1,16 @@
 {
   "version": "0.7.1",
   "git": {
-    "commit": "d15a9af",
-    "date": "2026-10-11T11:33:44+02:00",
-    "subject": "Prepare verified bot contact and GitHub Pages files",
+    "commit": "69f2cc0",
+    "date": "2026-10-11T20:11:44+02:00",
+    "subject": "Prepare approved temporary public Pi-kurv presentation",
     "dirty": false,
     "tag": null
+  },
+  "files": {
+    "index.html": "418a58964e59d73707b730a9a3465f7745f2259534dc3b36f1db16ccf906f471",
+    "bot/index.html": "9003385ed68246d61c0835557fc1ccaf1fec99de3478f2e386497be58456bf25",
+    "style.css": "0986bbfb6220438b81122e3ddf67b195d5afac27f8542ec2459b37e73c63fa7a",
+    "favicon.svg": "56adf9d53caa2b80e0840919a34abe5a84d2c2a0d69202a0d8ad0d7b93eeb22e"
   }
 }
