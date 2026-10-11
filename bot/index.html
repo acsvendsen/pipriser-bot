@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="da">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Automatiske opslag · Pi-kurv</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header class="site-header"><a class="site-name" href="/bot/">Pi-kurv</a></header>
+  <main>
+    <h1>Automatiske opslag</h1>
+    <p>Pi-kurv er Anders' projekt, der hjælper med at vælge dele til Raspberry Pi og sammenligne danske priser med fragt.</p>
+    <p>Vi vil læse offentlige produktsider: pris, lagerstatus, stregkode og producentens varenummer. Vi bruger butikkernes sitemaps og tilladte kategorisider til at finde varerne.</p>
+    <p>Automatiske opslag er endnu ikke sat i drift. Prisopdateringer får først en tidsplan, når siden er klar. Det manuelle butikstjek læser højst én produktside pr. butik.</p>
+    <p>Vi følger robots.txt, venter mindst 2,5 sekunder mellem opslag (mindst 10 hos Elextra) og sænker farten ved travlhed. Vi forsøger aldrig at komme forbi robotkontrol. Afvisning med 403 eller robotkontrol giver straks 24 timers pause; tre andre afvisninger i træk giver også pause.</p>
+    <h2>Vil din butik have os til at stoppe?</h2>
+    <p>Skriv til <a href="mailto:pipriser@drohm.dk">pipriser@drohm.dk</a>, hvis din butik vil have os til at stoppe. Du kan også blokere Pi-kurv i robots.txt.</p>
+    <section lang="en" aria-labelledby="english-title">
+      <h2 id="english-title">Automated requests</h2>
+      <p>Pi-kurv is Anders' project to help people choose Raspberry Pi parts and compare Danish prices including delivery. We plan to read public product prices, stock, GTIN and manufacturer part numbers, using sitemaps and permitted category pages.</p>
+      <p>Collection is not running yet; its schedule will be published before it starts. The manual shop check reads at most one product page per shop. Requests are serial, at least 2.5 seconds apart (10 seconds at Elextra), and obey robots.txt and Crawl-delay. We back off on busy responses and never bypass bot protection. A 403 or challenge pauses the shop for 24 hours immediately; three other consecutive refusals also pause it.</p>
+      <p>To ask us to stop, email <a href="mailto:pipriser@drohm.dk">pipriser@drohm.dk</a>. You can also block Pi-kurv in robots.txt.</p>
+    </section>
+  </main>
+  <footer><p id="version">Version 0.7.1 · d15a9af</p><p>Raspberry Pi is a trademark of Raspberry Pi Ltd.</p></footer>
+</body>
+</html>
